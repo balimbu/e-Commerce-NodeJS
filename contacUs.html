@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Contact Us </title>
+
+     <!-- Bootstrap link for CSS application -->
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" 
+     rel="stylesheet" 
+     integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+     crossorigin="anonymous">
+ 
+     <!-- Bootstrap Font Icon CSS -->
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+     <!-- Bootstrap Font Icon CSS for contact card -->
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+     <!-- Font Awesome Icon CSS-->
+     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+     
+     <!-- Bootstrap JS Link -->
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" 
+     integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" 
+     crossorigin="anonymous">
+     </script>
+ 
+     <style>
+         .customDiv{
+             background-color:cornsilk;
+             
+         }
+ 
+         .navbar-custom{ /*customized background color */
+             background-color:blue;
+             font-size: 22px;
+             margin: 0px;
+             padding: 10px;
+             text-align: left;
+             
+         }  
+ 
+         ul li{
+             padding: 10px;
+         }
+
+        
+     </style>
+</head>
+
+<body style="background-color:blue">
+    <!--Create image gallery page using bootstrap grid-->
+    <!-- Use 12 Columns spacing BS grid system -->    
+    <nav class="navbar navbar-expand-sm navbar-dark navbar-custom border border-dark border border-2>
+        <div class="containter-fluid">
+            <a class="navbar-brand" href="#"> <img src= "IMG_logo.jpg" alt="logo here" width="170px"/> </a>
+            <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavId" aria-controls="collapsibleNavId"
+                aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="collapsibleNavId">
+                <ul class="navbar-nav me-auto mt-2 mt-lg-0">
+                    <!-- <a class="navbar-brand" style="font-size: 25px;"href="#" > <img src= "IMG_logo.jpg" alt="logo here" class="logo"/> Navbar Logo </a> -->
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html" aria-current="page"> <i class="bi bi-house-door-fill"></i>Home </a>
+                    </li>
+                    <li class="nav-item"> 
+                        <a class="nav-link " href="aboutUs.html" > 
+                            <i class="bi bi-list-task"></i> About Us <span class="visually-hidden">(current)</span></a>
+                    </li>
+                      <li class="nav-item">
+                          <a class="nav-link " href="products.html" > 
+                              <i class="bi bi-info-lg"></i> Products </a>
+                      </li>
+                      
+                      <br>
+                      <li class="nav-item">
+                          <a class="nav-link active" href="#" > 
+                              <i class="bi bi-person-vcard-fill"></i> Contact Us <span class="visually-hidden">(current)</span> </a>
+                      </li>
+                  </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- <div class="bg-primary" style="padding: 0%"> -->
+    <div class="containter-fluid customDiv border border-dark border border-2" style="margin-top: 0%; margin-bottom: 70px; padding-top: 0% ;padding-bottom:50%;font-size:larger; padding-left: 30px; font-family: Arial, Helvetica, sans-serif; padding-top: 20px;" >
+        
+        <form action = "#" method="get"> 
+
+            <h1 class="display-1">Contact Us </h1>
+            <br>
+            <label for="firstname">First name:  </label> 
+            <input type="text" id="firstname" name ="firstname" size = "30%" placeholder="first name here"/>
+            <br> <br>
+            <label for="lastname"> Last name: </label>
+            <input type="text" id="lastname" name="lastname" size = "30" placeholder="last name here"/> <br>
+             <br>
+            <label for="email address"> Email address: </label>
+            <input type="text" id="email address" name="email address" size ="50" placeholder="email here"/> <br>
+            <br>
+            <label for="phone number"> Phone number <em>(optional): </em></label>
+            <input type="text" id="phone number" name="phone number" size="50%" placeholder=" contact number here, only if you choose "/><br>
+            <br>
+            <label for="message"> Message: </label> <br>
+            <textarea rows="15" cols="60" placeholder="Drop in your message here "></textarea> </label> <br>
+        
+            <!-- <label for="message"> Message</label> <br>
+            <input type="text" id="message" name="message" />
+            <b>Note: </b><em>The width of the text box for message dynamically changes to match the length of the input.</em>
+            <script>
+                $(document).ready(function(){
+                    $('#message').keyup(function(){
+                        $(this).attr('size', $(this).val.length)
+                    });
+                });
+            </script> -->
+            <br>
+            <!-- proceed to confirmation page-->
+            <button class="btn btn-primary btn btn-lg"> Submit</button> 
+            
+            
+    </div>
+<!-- </div> -->
+
+</body>
+</html>

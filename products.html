@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Products </title>
+
+     <!-- Bootstrap link for CSS application -->
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" 
+     rel="stylesheet" 
+     integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+     crossorigin="anonymous">
+ 
+     <!-- Bootstrap Font Icon CSS -->
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+     <!-- Bootstrap Font Icon CSS for contact card -->
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+     <!-- Font Awesome Icon CSS-->
+     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+     
+     <!-- Bootstrap JS Link -->
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" 
+     integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" 
+     crossorigin="anonymous">
+     </script>
+ 
+     <style>
+         .customDiv{
+             background-color:cornsilk;
+             
+         }
+ 
+         .navbar-custom{ /*customized background color */
+             background-color:blue;
+             font-size: 22px;
+             margin: 0px;
+             padding: 10px;
+             text-align: left;
+             
+         }  
+ 
+         ul li{
+             padding: 10px;
+         }
+
+        
+     </style>
+</head>
+
+<body >
+    <!--Create image gallery page using bootstrap grid-->
+    <!-- Use 12 Columns spacing BS grid system -->    
+    <nav class="navbar navbar-expand-sm navbar-dark navbar-custom border border-dark border border-2>
+        <div class="containter-fluid">
+            <a class="navbar-brand" href="#"> <img src= "IMG_logo.jpg" alt="logo here" width="170px"/> </a>
+            <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavId" aria-controls="collapsibleNavId"
+                aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="collapsibleNavId">
+                <ul class="navbar-nav me-auto mt-2 mt-lg-0">
+                    <!-- <a class="navbar-brand" style="font-size: 25px;"href="#" > <img src= "IMG_logo.jpg" alt="logo here" class="logo"/> Navbar Logo </a> -->
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html" aria-current="page"> <i class="bi bi-house-door-fill"></i>Home </a>
+                    </li>
+                    <li class="nav-item"> 
+                        <a class="nav-link " href="aboutUs.html" > 
+                            <i class="bi bi-list-task"></i> About Us <span class="visually-hidden">(current)</span></a>
+                    </li>
+                      <li class="nav-item">
+                          <a class="nav-link active" href="#" > 
+                              <i class="bi bi-info-lg"></i> Products <span class="visually-hidden">(current)</span></a>
+                      </li>
+                      
+                      <br>
+                      <li class="nav-item">
+                          <a class="nav-link" href="contacUs.html" > 
+                              <i class="bi bi-person-vcard-fill"></i> Contact Us</a>
+                      </li>
+                  </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- <div class="containter-fluid customDiv border border-dark border border-2" style="padding-bottom:90%;font-size:larger; font-family: Arial, Helvetica, sans-serif; padding-top: 20px;" > -->
+        
+        <div class="containter-fluid customDiv" style ="padding-top: 25px;">
+    
+        <!--create a row -->
+        <div class="row">
+    
+        <!--create a column -->
+        <div class="col-lg-4 mb-4 mb-lg-0">
+        <img src="Shutterstock_1051249988.jpg" class="w-100 shadow-2-strong rounded mb-4"
+            alt="Santori Greece Europe - Three Blue Dome Church"/>
+    
+        <img src ="Shutterstock_793761799.jpg"
+            class="w-100 shadow-2-strong rounded mb-4"
+            alt="Saint Mark Church Bell Tower "/>
+
+            <img
+              src="Shutterstock_1884432400.jpg"class="w-100 shadow-1-strong rounded mb-4"
+              alt="Green Ocean Waters and Forest"/>
+        
+        </div>
+    
+        
+        <!--create a column -->
+        <div class="col-lg-4 mb-4 mb-lg-0">
+        <img src="Shutterstock_1598882821.jpg"
+          class="w-100 shadow-1-strong rounded mb-4"
+          alt="White Concrete Houses on Mountains"/>
+    
+        <img
+          src="Shutterstock_1084743635.jpg"
+          class="w-100 shadow-1-strong rounded mb-4"
+          alt="Brown and White Painted Cathedral"/>
+
+          <img
+              src="Shutterstock_2206655651.jpg"class="w-100 shadow-1-strong rounded mb-4"
+              alt="Green Ocean Waters and Forest"/>
+        
+        </div>
+    
+        
+        <!--create a column -->
+        <div class="col-lg-4 mb-4 mb-lg-0">
+        <img
+          src="Shutterstock_1723253299.jpg"class="w-100 shadow-1-strong rounded mb-4"
+          alt="Green Ocean Waters and Forest"/>
+    
+        <img
+          src="Shutterstock_1889135281.jpg"class="w-100 shadow-1-strong rounded mb-4"
+          alt="Orange Boat Riding "/>
+    
+          
+        <img
+          src="Shutterstock_1900693708.jpg"class="w-100 shadow-1-strong rounded mb-4"
+          alt="Golden Temple"/>
+      </div>
+
+    </div>
+</div>
+    
+</body>
+</html>
